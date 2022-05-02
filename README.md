@@ -7,9 +7,12 @@ Anyone can contribute to this project by the [hw-probe](https://github.com/linux
 
     hw-probe -all -upload
 
+This report is for virtual hardware. Report for real hardware: [TestCoverage](https://github.com/bsdhw/TestCoverage)
+
 Contents
 --------
 
+* [ All BSD variants ](/All)
 * [ FreeBSD ](/Dist/FreeBSD)
 * [ helloSystem ](/Dist/helloSystem)
 * [ OpenBSD ](/Dist/OpenBSD)

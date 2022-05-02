@@ -151,7 +151,7 @@ Total: 44
 
 | Vendor    | Model                       | Form-Factor     | Probe                                                     | Date         |
 |-----------|-----------------------------|-----------------|-----------------------------------------------------------|--------------|
-| Intel     | 440BX Desktop Reference ... | Virtual machine | [a201d00e21](https://bsd-hardware.info/?probe=a201d00e21) | Jan 11, 2022 |
+| VMware    | Virtual Platform            | Virtual machine | [a201d00e21](https://bsd-hardware.info/?probe=a201d00e21) | Jan 11, 2022 |
 | QEMU      | Standard PC (Q35 + ICH9,... | Virtual machine | [2398313755](https://bsd-hardware.info/?probe=2398313755) | Jan 08, 2022 |
 | QEMU      | Standard PC (Q35 + ICH9,... | Virtual machine | [e94ada3336](https://bsd-hardware.info/?probe=e94ada3336) | Oct 15, 2021 |
 | QEMU      | KVM Virtual Machine         | Virtual machine | [e9403b5e21](https://bsd-hardware.info/?probe=e9403b5e21) | Oct 10, 2021 |
@@ -167,7 +167,7 @@ Total: 44
 | QEMU      | Standard PC (i440FX + PI... | Virtual machine | [37b43f2d4b](https://bsd-hardware.info/?probe=37b43f2d4b) | Apr 10, 2021 |
 | Red Hat   | KVM                         | Virtual machine | [28e3760674](https://bsd-hardware.info/?probe=28e3760674) | Jan 21, 2021 |
 | Vultr     | HFC                         | Virtual machine | [bb383eab1c](https://bsd-hardware.info/?probe=bb383eab1c) | Jan 19, 2021 |
-| Intel     | 440BX Desktop Reference ... | Virtual machine | [1431f70d16](https://bsd-hardware.info/?probe=1431f70d16) | Dec 15, 2020 |
+| VMware    | Virtual Platform            | Virtual machine | [1431f70d16](https://bsd-hardware.info/?probe=1431f70d16) | Dec 15, 2020 |
 | innotek   | VirtualBox                  | Virtual machine | [156451666f](https://bsd-hardware.info/?probe=156451666f) | Nov 27, 2020 |
 | QEMU      | Standard PC (i440FX + PI... | Virtual machine | [3740a0037c](https://bsd-hardware.info/?probe=3740a0037c) | Nov 25, 2020 |
 | QEMU      | Standard PC (i440FX + PI... | Virtual machine | [0f64b80425](https://bsd-hardware.info/?probe=0f64b80425) | Nov 22, 2020 |
@@ -359,10 +359,9 @@ Motherboard manufacturer
 | innotek   | 11        | 28.21%  |
 | Microsoft | 4         | 10.26%  |
 | Vultr     | 3         | 7.69%   |
+| VMware    | 3         | 7.69%   |
 | OpenBSD   | 3         | 7.69%   |
-| Intel     | 2         | 5.13%   |
 | Xen       | 1         | 2.56%   |
-| VMware    | 1         | 2.56%   |
 | Red Hat   | 1         | 2.56%   |
 | Hetzner   | 1         | 2.56%   |
 | bhyve     | 1         | 2.56%   |
@@ -381,10 +380,9 @@ Motherboard model
 | QEMU Standard PC (i440FX + PIIX, 1996) | 9         | 23.08%  |
 | Microsoft Virtual Machine              | 4         | 10.26%  |
 | Vultr HFC                              | 3         | 7.69%   |
+| VMware Virtual Platform                | 3         | 7.69%   |
 | OpenBSD VMM                            | 3         | 7.69%   |
-| Intel Virtual Platform                 | 2         | 5.13%   |
 | Xen HVM domU                           | 1         | 2.56%   |
-| VMware Virtual Platform                | 1         | 2.56%   |
 | Red Hat KVM                            | 1         | 2.56%   |
 | QEMU Standard PC (Q35 + ICH9, 2009)    | 1         | 2.56%   |
 | QEMU KVM Virtual Machine               | 1         | 2.56%   |
@@ -405,10 +403,9 @@ Motherboard model prefix
 | QEMU Standard      | 10        | 25.64%  |
 | Microsoft Virtual  | 4         | 10.26%  |
 | Vultr HFC          | 3         | 7.69%   |
+| VMware Virtual     | 3         | 7.69%   |
 | OpenBSD VMM        | 3         | 7.69%   |
-| Intel Virtual      | 2         | 5.13%   |
 | Xen HVM            | 1         | 2.56%   |
-| VMware Virtual     | 1         | 2.56%   |
 | Red Hat KVM        | 1         | 2.56%   |
 | QEMU KVM           | 1         | 2.56%   |
 | Hetzner vServer    | 1         | 2.56%   |
@@ -1070,17 +1067,18 @@ Combinations of graphics cards
 ![GPU Combo](./images/pie_chart_bsd/gpu_combo.svg)
 
 
-| Name           | Computers | Percent |
-|----------------|-----------|---------|
-| 1 x VMware     | 11        | 27.5%   |
-| 1 x Cirrus     | 9         | 22.5%   |
-| 1 x Bochs      | 6         | 15%     |
-| Other          | 4         | 10%     |
-| 1 x Microsoft  | 4         | 10%     |
-| 1 x InnoTek    | 3         | 7.5%    |
-| 1 x Qumranet   | 1         | 2.5%    |
-| AMD + Qumranet | 1         | 2.5%    |
-| 1 x AMD        | 1         | 2.5%    |
+| Name                       | Computers | Percent |
+|----------------------------|-----------|---------|
+| 1 x VMware                 | 11        | 27.5%   |
+| 1 x Cirrus                 | 9         | 22.5%   |
+| 1 x Bochs                  | 6         | 15%     |
+| Other                      | 4         | 10%     |
+| 1 x Microsoft              | 4         | 10%     |
+| 1 x InnoTek                | 2         | 5%      |
+| 1 x Qumranet               | 1         | 2.5%    |
+| 1 x InnoTek Systemberatung | 1         | 2.5%    |
+| AMD + Qumranet             | 1         | 2.5%    |
+| 1 x AMD                    | 1         | 2.5%    |
 
 GPU Driver
 ----------
